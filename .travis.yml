@@ -1,0 +1,11 @@
+rvm:
+ - 2.0.0
+ - 2.1.1
+ - 2.3.3
+ - 2.4.0
+notifications:
+  email: false
+script: bundle exec rake test
+matrix:
+  allow_failures:
+    - rvm:
